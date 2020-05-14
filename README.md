@@ -1,0 +1,1 @@
+# glovo-interview-android-feed-dependencies
