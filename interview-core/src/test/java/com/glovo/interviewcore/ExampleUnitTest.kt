@@ -1,4 +1,4 @@
-package com.glovo.myapplication
+package com.glovo.interviewcore
 
 import org.junit.Test
 

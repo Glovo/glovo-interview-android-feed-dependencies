@@ -1,4 +1,4 @@
-package com.glovo.myapplication
+package com.glovo.interviewcore
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.glovo.myapplication", appContext.packageName)
+        assertEquals("com.glovo.interviewcore.test", appContext.packageName)
     }
 }
