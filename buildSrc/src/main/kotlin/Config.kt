@@ -20,10 +20,19 @@ object Config {
         const val coroutinesAndroid = "1.3.2"
 
         const val junit = "4.13"
-        const val powerMock = "2.0.7"
+        const val robolectric = "4.3.1"
         const val mockito = "3.3.3"
-        const val testRunner = "1.2.0"
-        const val espressoCore = "3.2.0"
+        const val mockk = "1.10.0"
+        const val testOrchestrator = "1.2.0"
+        const val jacoco = "0.8.3"
+        const val testEspresso = "3.2.0"
+        const val fragmentTesting = "1.2.2"
+        const val androidXTest = "1.2.0"
+        const val androidXJUnit = "1.1.1"
+        const val wireMock = "2.26.3" // 2.27.0 breaks on Android
+        const val apacheClientAndroid = "4.3.5.1"
+        const val rxIdler = "0.11.0"
+        const val archCore = "2.1.0"
     }
 
     object Android {
@@ -35,14 +44,20 @@ object Config {
     object Testing {
         const val junit = "junit:junit:${Versions.junit}"
         const val mockitoCore = "org.mockito:mockito-core:${Versions.mockito}"
-        const val testRunner = "androidx.test:runner:${Versions.testRunner}"
+        const val mockk = "io.mockk:mockk:${Versions.mockk}"
 
-        const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espressoCore}"
+        const val fragmentTesting = "androidx.fragment:fragment-testing:${Versions.fragmentTesting}"
+        const val robolectric = "org.robolectric:robolectric:${Versions.robolectric}"
 
-        const val powerMockCore = "org.powermock:powermock-core:${Versions.powerMock}"
-        const val powerMockApi = "org.powermock:powermock-api-mockito2:${Versions.powerMock}"
-        const val powerMockJunit = "org.powermock:powermock-module-junit4:${Versions.powerMock}"
-        const val powerMockJunitRule = "org.powermock:powermock-module-junit4-rule:${Versions.powerMock}"
+        const val androidXTestRules = "androidx.test:rules:${Versions.androidXTest}"
+        const val androidXTestJunitKtx = "androidx.test.ext:junit-ktx:${Versions.androidXJUnit}"
+        const val androidXTestEspresso = "androidx.test.espresso:espresso-contrib:${Versions.testEspresso}"
+        const val androidXTestEspressoIntents = "androidx.test.espresso:espresso-intents:${Versions.testEspresso}"
+        const val androidXTestOrchestrator = "androidx.test:orchestrator:${Versions.testOrchestrator}"
+        const val androidXTestArch = "androidx.arch.core:core-testing:${Versions.archCore}"
+        const val wireMock = "com.github.tomakehurst:wiremock:${Versions.wireMock}"
+        const val apacheClientAndroid = "org.apache.httpcomponents:httpclient-android:${Versions.apacheClientAndroid}"
+        const val rxIdler = "com.squareup.rx.idler:rx3-idler:${Versions.rxIdler}"
     }
 
     object Libraries {
