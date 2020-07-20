@@ -1,5 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.glovo.interview_test_base">
-
-    /
-</manifest>
+    package="com.glovo.interview_base_test" />

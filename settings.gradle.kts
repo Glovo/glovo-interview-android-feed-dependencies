@@ -1,1 +1,2 @@
-include(":interview-core")
+include(":interview-base")
+include(":interview-base-test")
