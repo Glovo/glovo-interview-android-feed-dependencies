@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    compileSdkVersion(Config.Android.compileSdk)
+    compileSdkVersion(29)
 
     defaultConfig {
-        minSdkVersion(Config.Android.minSdk)
-        targetSdkVersion(Config.Android.targetSdk)
+        minSdkVersion(21)
+        targetSdkVersion(29)
         versionCode = 1
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -25,7 +25,7 @@ android {
 }
 
 dependencies {
-    api(kotlinStdlib)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
     api("androidx.appcompat:appcompat:1.1.0")
     api("androidx.core:core-ktx:1.3.0")
