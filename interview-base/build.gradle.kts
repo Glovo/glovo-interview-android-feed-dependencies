@@ -25,8 +25,6 @@ android {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-
     api("androidx.appcompat:appcompat:1.1.0")
     api("androidx.core:core-ktx:1.3.0")
     api("androidx.recyclerview:recyclerview:1.1.0")

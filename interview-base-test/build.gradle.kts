@@ -23,22 +23,13 @@ android {
         }
     }
 
-    lintOptions {
-        disable.add("InvalidPackage")
-    }
+
 }
 
 dependencies {
-    api("org.mockito:mockito-core:3.3.3")
+    testImplementation("junit:junit:4.13")
+    testImplementation("androidx.test:core:1.2.0")
+    testImplementation("org.mockito:mockito-core:3.3.3")
 
-    api("junit:junit:4.13")
 
-    api("androidx.test:runner:1.2.0")
-    api("androidx.test.ext:junit:1.1.1")
-    api("androidx.test.espresso:espresso-core:3.2.0")
-
-    api("org.powermock:powermock-core:2.0.7")
-    api("org.powermock:powermock-api-mockito2:2.0.7")
-    api("org.powermock:powermock-module-junit4:2.0.7")
-    api("org.powermock:powermock-module-junit4-rule:2.0.7")
 }
