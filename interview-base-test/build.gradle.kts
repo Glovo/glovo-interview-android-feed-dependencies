@@ -28,16 +28,22 @@ android {
     }
 }
 
+/**
+ * Please do not modify this Dependencies
+ * To add new dependencies you have to do it on the app build.gradle file
+ */
 dependencies {
     api("junit:junit:4.13")
-    api("androidx.test:core:1.2.0")
+
     api("org.mockito:mockito-core:3.3.3")
+
+    api("androidx.test:runner:1.2.0")
+
+    api("org.powermock:powermock-core:2.0.7")
+    api("org.powermock:powermock-api-mockito2:2.0.7")
+    api("org.powermock:powermock-module-junit4:2.0.7")
+    api("org.powermock:powermock-module-junit4-rule:2.0.7")
 
     api("androidx.test.ext:junit:1.1.1")
     api("androidx.test.espresso:espresso-core:3.2.0")
-
-    api("org.powermock:powermock-api-mockito:1.6.2")
-    api("org.powermock:powermock-module-junit4-rule-agent:1.6.2")
-    api("org.powermock:powermock-module-junit4-rule:2.0.7")
-    api("org.powermock:powermock-module-junit4:2.0.7")
 }
