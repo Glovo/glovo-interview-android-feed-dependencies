@@ -25,12 +25,12 @@ android {
 }
 
 dependencies {
-    testImplementation("junit:junit:4.13")
-    testImplementation("androidx.test:core:1.2.0")
-    testImplementation("org.mockito:mockito-core:3.3.3")
+    testApi("junit:junit:4.13")
+    testApi("androidx.test:core:1.2.0")
+    testApi("org.mockito:mockito-core:3.3.3")
 
-    testImplementation("org.powermock:powermock-api-mockito:1.6.2")
-    testImplementation("org.powermock:powermock-module-junit4-rule-agent:1.6.2")
-    testImplementation("org.powermock:powermock-module-junit4-rule:2.0.7")
-    testImplementation("org.powermock:powermock-module-junit4:2.0.7")
+    testApi("org.powermock:powermock-api-mockito:1.6.2")
+    testApi("org.powermock:powermock-module-junit4-rule-agent:1.6.2")
+    testApi("org.powermock:powermock-module-junit4-rule:2.0.7")
+    testApi("org.powermock:powermock-module-junit4:2.0.7")
 }
